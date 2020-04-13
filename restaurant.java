@@ -17,7 +17,10 @@ public class restaurant {
         System.out.println("How many items would you like to order");
         Scanner sc = new Scanner(System.in); 
         int size = sc.nextInt();
-       // String orderArray[] = new String[size]; 
+       /* ArrayList creates a a dynamic array, in ArrayList index is unknown .add is a built in function in library "ArrayList"
+       For loop: used for user to input the specific amount of items they want in the specified array list length/size
+        If statements: used to add price to total price and add strings to the array (to add on final receipt)
+       */
         ArrayList<String> orderArray = new ArrayList<String>();
         System.out.println("Enter the number of the item you would like to order");
         double totalPrice = 0.0;
