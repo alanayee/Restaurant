@@ -89,6 +89,7 @@ public class restaurant {
         subTotal = (double) Math.round(subTotal * 100) / 100;
         totalPrice = (double) Math.round(totalPrice * 100) / 100;
         System.out.println("Your order is: ");
+        //
         for (int i = 0; i<orderArray.size(); i++){
             System.out.println(orderArray.get(i));
         }
